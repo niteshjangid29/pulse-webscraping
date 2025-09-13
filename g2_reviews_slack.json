@@ -1,158 +1,283 @@
 [
   {
     "rating": 4.5,
-    "reviewer": "Satyanjani S.",
-    "reviewer_details": [
-      "Projet Manager",
-      "Enterprise (> 1000 emp.)"
-    ],
     "date": "2025-09-10",
-    "title": "\"Best-in-Class for Team Chat and Seamless Collaboration\"",
-    "review": "Slack makes team communication effortless with its clean interface, powerful search, and seamless integrations with tools we use daily. I especially like how channels keep conversations organized and reduce email clutter, making collaboration faster and more transparent Review collected by and hosted on G2.com. At times, Slack can feel overwhelming with constant notifications, especially in large teams with many active channels. It takes some discipline and customization to manage alerts and avoid distractions. Also, the pricing can be on the higher side compared to alternatives if you need the premium features Review collected by and hosted on G2.com. Slack centralizes all our team communication in one place, reducing reliance on long email chains and scattered chats. With channels, we can keep conversations topic-focused, which saves time and improves transparency. Integrations with tools like Google Drive and Jira streamline workflows, so we can share updates instantly and act faster. Overall, it makes collaboration more efficient and keeps everyone aligned, especially in a hybrid work environment Review collected by and hosted on G2.com.",
-    "url": "https://www.g2.com/products/slack/reviews/slack-review-11665819"
+    "url": "https://www.g2.com/products/slack/reviews/slack-review-11665819",
+    "reviewer": {
+      "name": "Satyanjani S.",
+      "role": "Projet Manager",
+      "company_size": "Enterprise (> 1000 emp.)",
+      "badges": [
+        "Current User",
+        "Validated Reviewer",
+        "Source: Organic"
+      ]
+    },
+    "review_text": {
+      "title": "\"Best-in-Class for Team Chat and Seamless Collaboration\"",
+      "pros": "Slack makes team communication effortless with its clean interface, powerful search, and seamless integrations with tools we use daily. I especially like how channels keep conversations organized and reduce email clutter, making collaboration faster and more transparent Review collected by and hosted on G2.com.",
+      "cons": "At times, Slack can feel overwhelming with constant notifications, especially in large teams with many active channels. It takes some discipline and customization to manage alerts and avoid distractions. Also, the pricing can be on the higher side compared to alternatives if you need the premium features Review collected by and hosted on G2.com.",
+      "problems_solved": "Slack centralizes all our team communication in one place, reducing reliance on long email chains and scattered chats. With channels, we can keep conversations topic-focused, which saves time and improves transparency. Integrations with tools like Google Drive and Jira streamline workflows, so we can share updates instantly and act faster. Overall, it makes collaboration more efficient and keeps everyone aligned, especially in a hybrid work environment Review collected by and hosted on G2.com."
+    }
   },
   {
     "rating": 4.5,
-    "reviewer": "Arjun G.",
-    "reviewer_details": [
-      "Associate Salesforce Consultant",
-      "Small-Business (50 or fewer emp.)"
-    ],
     "date": "2025-09-10",
-    "title": "\"Always ahead in the conversation with Slack Summary\"",
-    "review": "The best part about using Slack with so many clients and team members is that you can summarize what they want to convey and had a conversation around in the channels. Without looking at the long conversation, a quick glance and they call to action are provided seamlessly.  The another feature that stands out the post is customizable search. I can literally search for any message or doc so easily, that I just feel like it's infront of me everytime.  The third feature that I like the most is the integration with different products. Like I have integrated it with Zivy, just with single click, that I can easily get the messages that I need to attend and enabled me to give a quick response. Review collected by and hosted on G2.com. The documentation for the slack features are not well prepared, that is the only downside of the slack. I had conversation with their customer support about it and they communicated that they will fix it as we wanted to implement salesforce with slack. Review collected by and hosted on G2.com. Slack solves the major problem of finding the right resource in the least time and reducing the messaging workload with its AI features. Review collected by and hosted on G2.com.",
-    "url": "https://www.g2.com/products/slack/reviews/slack-review-11662901"
+    "url": "https://www.g2.com/products/slack/reviews/slack-review-11662901",
+    "reviewer": {
+      "name": "Arjun G.",
+      "role": "Associate Salesforce Consultant",
+      "company_size": "Small-Business (50 or fewer emp.)",
+      "badges": [
+        "Current User",
+        "Validated Reviewer",
+        "Source: Organic"
+      ]
+    },
+    "review_text": {
+      "title": "\"Always ahead in the conversation with Slack Summary\"",
+      "pros": "The best part about using Slack with so many clients and team members is that you can summarize what they want to convey and had a conversation around in the channels. Without looking at the long conversation, a quick glance and they call to action are provided seamlessly.",
+      "cons": "The documentation for the slack features are not well prepared, that is the only downside of the slack. I had conversation with their customer support about it and they communicated that they will fix it as we wanted to implement salesforce with slack. Review collected by and hosted on G2.com.",
+      "problems_solved": "Slack solves the major problem of finding the right resource in the least time and reducing the messaging workload with its AI features. Review collected by and hosted on G2.com."
+    }
   },
   {
     "rating": 4.0,
-    "reviewer": "Pruthvi M.",
-    "reviewer_details": [
-      "PHP Developer",
-      "Mid-Market (51-1000 emp.)"
-    ],
     "date": "2025-09-10",
-    "title": "\"Review for slack\"",
-    "review": "this is a good tool for communication between the team and colleagues. we can make a different channel across the company, like all company members, company event channel, and any other channel, whatever you want. So due to this channel we can separate the members and it make easy communication. i am daily use the slack to communicate with my team colleagues. we can use slack in the browser and application. search filter is also good if we want to find something. we can also make huddle call. directory feature is also good we can easily find colleagues and we can also invite them to join our channel. Review collected by and hosted on G2.com. if we want more feature then we have to buy a plan. for free plan search feature is limited and someitme notification is irritate us and sometime issue occurs in huddle calls Review collected by and hosted on G2.com. using slack we can easily communicate with the team members. its save our time and we can also use the huddle call is dont want to chat. Review collected by and hosted on G2.com.",
-    "url": "https://www.g2.com/products/slack/reviews/slack-review-11651621"
+    "url": "https://www.g2.com/products/slack/reviews/slack-review-11651621",
+    "reviewer": {
+      "name": "Pruthvi M.",
+      "role": "PHP Developer",
+      "company_size": "Mid-Market (51-1000 emp.)",
+      "badges": [
+        "Current User",
+        "Validated Reviewer",
+        "Incentivized",
+        "Source: G2 invite"
+      ]
+    },
+    "review_text": {
+      "title": "\"Review for slack\"",
+      "pros": "this is a good tool for communication between the team and colleagues.",
+      "cons": "if we want more feature then we have to buy a plan.",
+      "problems_solved": "using slack we can easily communicate with the team members. its save our time and we can also use the huddle call is dont want to chat. Review collected by and hosted on G2.com."
+    }
   },
   {
     "rating": 5.0,
-    "reviewer": "Eka N.",
-    "reviewer_details": [
-      "Regional admin",
-      "Mid-Market (51-1000 emp.)"
-    ],
     "date": "2025-09-08",
-    "title": "\"Keep communication between team quick and accurate\"",
-    "review": "Easy to implement, fast to install, low learning curves training to get comfortable using Slack as daily team communication center. New user can start using it right away, only need to explore some of the features and tools, most users need less than a day to start using it. We use it everyday for project collaboration, exchanging files and document, and to update task/project progress that we integrate with Asana, synchronization between the two software is in-real time, all data that we view is the latest information. Tools like video conference adding values to the communication medium, quick meeting can be host just by a few click. Review collected by and hosted on G2.com. Some performance issues with the software when user is joining too many channel or room on the platform. Customer support has been alerted for this issues, but no solutions is provided except to disjoin all the channel, which is not an option when we are running multiple project simultaneously. Review collected by and hosted on G2.com. Slack provide an instant communication platform using the chat room and video conference features, we ditch using email completely after trying Slack. It is quick, features rich and has every software integration that anyone possibly need. Review collected by and hosted on G2.com.",
-    "url": "https://www.g2.com/products/slack/reviews/slack-review-11655080"
+    "url": "https://www.g2.com/products/slack/reviews/slack-review-11655080",
+    "reviewer": {
+      "name": "Eka N.",
+      "role": "Regional admin",
+      "company_size": "Mid-Market (51-1000 emp.)",
+      "badges": [
+        "Current User",
+        "Validated Reviewer",
+        "Incentivized",
+        "Source: G2 invite"
+      ]
+    },
+    "review_text": {
+      "title": "\"Keep communication between team quick and accurate\"",
+      "pros": "Easy to implement, fast to install, low learning curves training to get comfortable using Slack as daily team communication center. New user can start using it right away, only need to explore some of the features and tools, most users need less than a day to start using it. We use it everyday for project collaboration, exchanging files and document, and to update task/project progress that we integrate with Asana, synchronization between the two software is in-real time, all data that we view is the latest information. Tools like video conference adding values to the communication medium, quick meeting can be host just by a few click. Review collected by and hosted on G2.com.",
+      "cons": "Some performance issues with the software when user is joining too many channel or room on the platform. Customer support has been alerted for this issues, but no solutions is provided except to disjoin all the channel, which is not an option when we are running multiple project simultaneously. Review collected by and hosted on G2.com.",
+      "problems_solved": "Slack provide an instant communication platform using the chat room and video conference features, we ditch using email completely after trying Slack. It is quick, features rich and has every software integration that anyone possibly need. Review collected by and hosted on G2.com."
+    }
   },
   {
     "rating": 4.5,
-    "reviewer": "Dhara H.",
-    "reviewer_details": [
-      "Quality Analyst",
-      "Small-Business (50 or fewer emp.)"
-    ],
     "date": "2025-09-08",
-    "title": "\"The backbone of our project communication\"",
-    "review": "Slack is overall Ease of Use, the interface feels modern, clean and very intuitive, so even non-technical teammates adopted it quickly. The Ease of Implementation was another highlight, rolling it our across our company took minimal efforts and no complex setup. I also appreciate the quality of Customer Support, with clear documentation and responsive ticket handling when needed. In term of Frequency of Use, Slack is open on my screen all day and has essentially replaced internal email. The Number of Features in just right, channel, threads, huddles reminders, and workflow automation cover everything we need without feeling overloaded. Finally the Ease of Integration makes a huge difference - connecting with Google Drive, Jira and Zoom ensures files and updates flow automatically, keeping work centralized and efficient. Review collected by and hosted on G2.com. The main drawback is that larger message histories and analytics are limited on standard plans, making it harder to track long-term usage trends. Sometimes, managing external guests or shared channels can also get confusing, especially when working with multiple client project Review collected by and hosted on G2.com. Slack could improve by offering stronger built-in analytics and reporting tools, better management for external collaborators, and more advanced video call features without required third-party tools. Streaming guest access would also make it easier for small teams that collaborated with clients regularly. Review collected by and hosted on G2.com.",
-    "url": "https://www.g2.com/products/slack/reviews/slack-review-11653517"
+    "url": "https://www.g2.com/products/slack/reviews/slack-review-11653517",
+    "reviewer": {
+      "name": "Dhara H.",
+      "role": "Quality Analyst",
+      "company_size": "Small-Business (50 or fewer emp.)",
+      "badges": [
+        "Current User",
+        "Validated Reviewer",
+        "Source: Organic"
+      ]
+    },
+    "review_text": {
+      "title": "\"The backbone of our project communication\"",
+      "pros": "Slack is overall Ease of Use, the interface feels modern, clean and very intuitive, so even non-technical teammates adopted it quickly. The Ease of Implementation was another highlight, rolling it our across our company took minimal efforts and no complex setup. I also appreciate the quality of Customer Support, with clear documentation and responsive ticket handling when needed. In term of Frequency of Use, Slack is open on my screen all day and has essentially replaced internal email. The Number of Features in just right, channel, threads, huddles reminders, and workflow automation cover everything we need without feeling overloaded. Finally the Ease of Integration makes a huge difference - connecting with Google Drive, Jira and Zoom ensures files and updates flow automatically, keeping work centralized and efficient. Review collected by and hosted on G2.com.",
+      "cons": "The main drawback is that larger message histories and analytics are limited on standard plans, making it harder to track long-term usage trends. Sometimes, managing external guests or shared channels can also get confusing, especially when working with multiple client project Review collected by and hosted on G2.com.",
+      "problems_solved": "Slack could improve by offering stronger built-in analytics and reporting tools, better management for external collaborators, and more advanced video call features without required third-party tools. Streaming guest access would also make it easier for small teams that collaborated with clients regularly. Review collected by and hosted on G2.com."
+    }
   },
   {
     "rating": 5.0,
-    "reviewer": "Aniket P.",
-    "reviewer_details": [
-      "Technical Project Manager",
-      "Mid-Market (51-1000 emp.)"
-    ],
     "date": "2025-09-08",
-    "title": "\"An essential tool for seamless team collaboration and communication.\"",
-    "review": "Slack enables communication between teams to become quick, organized, and productive. Channels keep the discussion on point, while integrations with apps such as Google Drive, Jira, and Zoom allow it to be simple to bring work together. The search function is robust, and the capacity to share files, respond with emojis, and automate workflows using bots keeps collaboration seamless and fun. It drastically minimizes email dependence and keeps teams in sync in real time. It's very easy to implement, and I use it very frequently for customer support. Review collected by and hosted on G2.com. Notifications can quickly become overwhelming if used with many workspaces and channels, particularly if not customized with care. Some critical messages quickly become buried in noisy discussions. The limited message history of the free plan can also be limiting for teams that have to look back at previous discussions. The app can also demand a lot of system resources in comparison with lighter messaging apps. Review collected by and hosted on G2.com. Slack solves the issue of dispersed communication by centralizing team discussions, documents, and tools into a single platform. It minimizes email noise, enhances real-time collaboration, and simplifies tracking of discussion through channels. With automation and integrations, work gets done faster, decisions happen faster, and productivity gains. Overall, it keeps our team connected, organized, and aligned irrespective of locations. Review collected by and hosted on G2.com.",
-    "url": "https://www.g2.com/products/slack/reviews/slack-review-11598314"
+    "url": "https://www.g2.com/products/slack/reviews/slack-review-11598314",
+    "reviewer": {
+      "name": "Aniket P.",
+      "role": "Technical Project Manager",
+      "company_size": "Mid-Market (51-1000 emp.)",
+      "badges": [
+        "Current User",
+        "Validated Reviewer",
+        "Source: Organic"
+      ]
+    },
+    "review_text": {
+      "title": "\"An essential tool for seamless team collaboration and communication.\"",
+      "pros": "Slack enables communication between teams to become quick, organized, and productive. Channels keep the discussion on point, while integrations with apps such as Google Drive, Jira, and Zoom allow it to be simple to bring work together. The search function is robust, and the capacity to share files, respond with emojis, and automate workflows using bots keeps collaboration seamless and fun. It drastically minimizes email dependence and keeps teams in sync in real time. It's very easy to implement, and I use it very frequently for customer support. Review collected by and hosted on G2.com.",
+      "cons": "Notifications can quickly become overwhelming if used with many workspaces and channels, particularly if not customized with care. Some critical messages quickly become buried in noisy discussions. The limited message history of the free plan can also be limiting for teams that have to look back at previous discussions. The app can also demand a lot of system resources in comparison with lighter messaging apps. Review collected by and hosted on G2.com.",
+      "problems_solved": "Slack solves the issue of dispersed communication by centralizing team discussions, documents, and tools into a single platform. It minimizes email noise, enhances real-time collaboration, and simplifies tracking of discussion through channels. With automation and integrations, work gets done faster, decisions happen faster, and productivity gains. Overall, it keeps our team connected, organized, and aligned irrespective of locations. Review collected by and hosted on G2.com."
+    }
   },
   {
     "rating": 5.0,
-    "reviewer": "Fattah A.",
-    "reviewer_details": [
-      "Sales Executive",
-      "Mid-Market (51-1000 emp.)"
-    ],
     "date": "2025-09-08",
-    "title": "\"Powerful communication platform for super busy workplace\"",
-    "review": "Slack is a powerful communication hub that let user to connect and collaborate with colleagues in multiple way, joining for a voice conference and discussion while completing other work is easy, time is not wasted but all work is complete. Customer support is being extra helpful when we have problem to connect several integration with the system, they configure it on their end, we don't have to setup anything on our end. We use it everyday to connect and communicate, when we are outstation, we still can use it by implement it on mobile phone, on the go work is possible and easy with Slack. Review collected by and hosted on G2.com. Slack need for a better notification management center, if a user is joining too many channel, the notification center is going crazy, ever minute a new alert will be receive and it can be a disruption when we are try to focus on work. Review collected by and hosted on G2.com. Slack help to transform communication from email chains to instant live chat on channels. Sharing files, media and document is now easy, finding conversation from history is quick using the search button, and hosting a video conference is now easy with single click of button. Review collected by and hosted on G2.com.",
-    "url": "https://www.g2.com/products/slack/reviews/slack-review-11651197"
+    "url": "https://www.g2.com/products/slack/reviews/slack-review-11651197",
+    "reviewer": {
+      "name": "Fattah A.",
+      "role": "Sales Executive",
+      "company_size": "Mid-Market (51-1000 emp.)",
+      "badges": [
+        "Current User",
+        "Validated Reviewer",
+        "Incentivized",
+        "Source: G2 invite"
+      ]
+    },
+    "review_text": {
+      "title": "\"Powerful communication platform for super busy workplace\"",
+      "pros": "Slack is a powerful communication hub that let user to connect and collaborate with colleagues in multiple way, joining for a voice conference and discussion while completing other work is easy, time is not wasted but all work is complete. Customer support is being extra helpful when we have problem to connect several integration with the system, they configure it on their end, we don't have to setup anything on our end. We use it everyday to connect and communicate, when we are outstation, we still can use it by implement it on mobile phone, on the go work is possible and easy with Slack. Review collected by and hosted on G2.com.",
+      "cons": "Slack need for a better notification management center, if a user is joining too many channel, the notification center is going crazy, ever minute a new alert will be receive and it can be a disruption when we are try to focus on work. Review collected by and hosted on G2.com.",
+      "problems_solved": "Slack help to transform communication from email chains to instant live chat on channels. Sharing files, media and document is now easy, finding conversation from history is quick using the search button, and hosting a video conference is now easy with single click of button. Review collected by and hosted on G2.com."
+    }
   },
   {
     "rating": 4.5,
-    "reviewer": "Mario S.",
-    "reviewer_details": [
-      "Sales agent",
-      "Mid-Market (51-1000 emp.)"
-    ],
     "date": "2025-09-07",
-    "title": "\"Keep teams connected wherever they are\"",
-    "review": "Slack is the best communication medium, especially for a hybrid team that have remote worker or work from home users. Connection is easy, just need to install it on computer or smartphone and you are ready to go, no other implementation process needed, it only need at most 30 minutes to finish setup. Organizing communication to separate between department communication, teams or private is possible, user is easy to focus on the topic and keep project related information on separate medium. Customer support is always ready to take comment and complaint and reflecting it to software update, all this positive element is the main reason why we are comfortable to use it as our main communication hub for daily usage. Review collected by and hosted on G2.com. I don't think I ever had major issues or dislikes with Slack. If I really have to complaint something, I feel the integration option is too vast and making user confuse which integrate to connect and which software has the best features. For now, too many similar software objective is available to be connect and we don't know which one is the best to choose. Review collected by and hosted on G2.com. Keep communication channel between hybrid team mates open and instant. Use video conference as a virtual meeting platform for weekly stand-up meeting. Review collected by and hosted on G2.com.",
-    "url": "https://www.g2.com/products/slack/reviews/slack-review-11650352"
+    "url": "https://www.g2.com/products/slack/reviews/slack-review-11650352",
+    "reviewer": {
+      "name": "Mario S.",
+      "role": "Sales agent",
+      "company_size": "Mid-Market (51-1000 emp.)",
+      "badges": [
+        "Current User",
+        "Validated Reviewer",
+        "Incentivized",
+        "Source: G2 invite"
+      ]
+    },
+    "review_text": {
+      "title": "\"Keep teams connected wherever they are\"",
+      "pros": "Slack is the best communication medium, especially for a hybrid team that have remote worker or work from home users. Connection is easy, just need to install it on computer or smartphone and you are ready to go, no other implementation process needed, it only need at most 30 minutes to finish setup. Organizing communication to separate between department communication, teams or private is possible, user is easy to focus on the topic and keep project related information on separate medium. Customer support is always ready to take comment and complaint and reflecting it to software update, all this positive element is the main reason why we are comfortable to use it as our main communication hub for daily usage. Review collected by and hosted on G2.com.",
+      "cons": "I don't think I ever had major issues or dislikes with Slack. If I really have to complaint something, I feel the integration option is too vast and making user confuse which integrate to connect and which software has the best features. For now, too many similar software objective is available to be connect and we don't know which one is the best to choose. Review collected by and hosted on G2.com.",
+      "problems_solved": "Keep communication channel between hybrid team mates open and instant. Use video conference as a virtual meeting platform for weekly stand-up meeting. Review collected by and hosted on G2.com."
+    }
   },
   {
     "rating": 5.0,
-    "reviewer": "Uriska M.",
-    "reviewer_details": [
-      "Support Engineer Executive",
-      "Mid-Market (51-1000 emp.)"
-    ],
     "date": "2025-09-04",
-    "title": "\"Slack keep everyone connected and updated\"",
-    "review": "Slack gives a new breath to team and internal communication, the onboarding process is easy that nobody has problem to use it correctly. Loved how it can create different channel for each team or ongoing project, everything is separated that no confusion in communication. My team use it everyday, especially in the morning for quick stand-up meeting to update project progress. With endless integration option, our project management and communication is now effective, we can communicate via text, video or audio. Review collected by and hosted on G2.com. Toning down the notification alert frequency is difficult, I have contacting customer support to configure it for us, but they are not solving the issues yet. It might be look like a simple issue, but it really distracting when i am rushing to finishing a project. Review collected by and hosted on G2.com. Slack help me and my team for real-time communication, we used to use email as the connection medium but it is slow and filling up our mail inboxes quickly. Slack is the best platform to solve this issues. Review collected by and hosted on G2.com.",
-    "url": "https://www.g2.com/products/slack/reviews/slack-review-11637529"
+    "url": "https://www.g2.com/products/slack/reviews/slack-review-11637529",
+    "reviewer": {
+      "name": "Uriska M.",
+      "role": "Support Engineer Executive",
+      "company_size": "Mid-Market (51-1000 emp.)",
+      "badges": [
+        "Current User",
+        "Validated Reviewer",
+        "Incentivized",
+        "Source: G2 invite"
+      ]
+    },
+    "review_text": {
+      "title": "\"Slack keep everyone connected and updated\"",
+      "pros": "Slack gives a new breath to team and internal communication, the onboarding process is easy that nobody has problem to use it correctly. Loved how it can create different channel for each team or ongoing project, everything is separated that no confusion in communication. My team use it everyday, especially in the morning for quick stand-up meeting to update project progress. With endless integration option, our project management and communication is now effective, we can communicate via text, video or audio. Review collected by and hosted on G2.com.",
+      "cons": "Toning down the notification alert frequency is difficult, I have contacting customer support to configure it for us, but they are not solving the issues yet. It might be look like a simple issue, but it really distracting when i am rushing to finishing a project. Review collected by and hosted on G2.com.",
+      "problems_solved": "Slack help me and my team for real-time communication, we used to use email as the connection medium but it is slow and filling up our mail inboxes quickly. Slack is the best platform to solve this issues. Review collected by and hosted on G2.com."
+    }
   },
   {
     "rating": 5.0,
-    "reviewer": "Femia B.",
-    "reviewer_details": [
-      "Sales Reps",
-      "Mid-Market (51-1000 emp.)"
-    ],
     "date": "2025-09-03",
-    "title": "\"Slack is the standard for team communication\"",
-    "review": "Slack is easy to use because they are not short on integration opportunity, just name any software, most of it able to be connect in one click with Slack. Onboarding process is straightforward, implementation is easy, every process is assisted by the guideline book, I can say that nothing is complicated. Slack room chat enable for private team communication hub, others can't enter the room without permission, sensitive information can be shared on the room freely. Review collected by and hosted on G2.com. The only issues that comes with Slack is with their customer support response time. Waiting for support email tickets to be reply in the next coming 2-3 business days is not efficient when the issues is  halting business process. I wish they can be contacted by phone call that can instantly communicate with the support agent. Review collected by and hosted on G2.com. Slack help to centralize communication hub for teams and organization under one place, it help teams to communicate in clear intention using voice or video conference call, using chat function for non-pressing discussion and exchanging data and files instantly from the cloud storage. Review collected by and hosted on G2.com.",
-    "url": "https://www.g2.com/products/slack/reviews/slack-review-11636252"
+    "url": "https://www.g2.com/products/slack/reviews/slack-review-11636252",
+    "reviewer": {
+      "name": "Femia B.",
+      "role": "Sales Reps",
+      "company_size": "Mid-Market (51-1000 emp.)",
+      "badges": [
+        "Current User",
+        "Validated Reviewer",
+        "Incentivized",
+        "Source: G2 invite"
+      ]
+    },
+    "review_text": {
+      "title": "\"Slack is the standard for team communication\"",
+      "pros": "Slack is easy to use because they are not short on integration opportunity, just name any software, most of it able to be connect in one click with Slack. Onboarding process is straightforward, implementation is easy, every process is assisted by the guideline book, I can say that nothing is complicated. Slack room chat enable for private team communication hub, others can't enter the room without permission, sensitive information can be shared on the room freely. Review collected by and hosted on G2.com.",
+      "cons": "The only issues that comes with Slack is with their customer support response time. Waiting for support email tickets to be reply in the next coming 2-3 business days is not efficient when the issues is  halting business process. I wish they can be contacted by phone call that can instantly communicate with the support agent. Review collected by and hosted on G2.com.",
+      "problems_solved": "Slack help to centralize communication hub for teams and organization under one place, it help teams to communicate in clear intention using voice or video conference call, using chat function for non-pressing discussion and exchanging data and files instantly from the cloud storage. Review collected by and hosted on G2.com."
+    }
   },
   {
     "rating": 5.0,
-    "reviewer": "Adinda S.",
-    "reviewer_details": [
-      "Sales &amp; Marketing executive",
-      "Mid-Market (51-1000 emp.)"
-    ],
     "date": "2025-09-03",
-    "title": "\"Simplest way to keep team communication alive\"",
-    "review": "Slack teams and organization can communicate in simplest way, not only by chat text, it also include option for stand-in video, conference video call and group private room. Using it everyday is suitable, the platform is lightweight that is not using too much computer resources, and flexible enough that it can be access from smartphone. Integration implementation is quick, connector is provided that most of the integration setup can be done by a few click, need no over-complicated setup like most of the software in the market. Review collected by and hosted on G2.com. The only downside with Slack are their customer support respond time, it late, slow and takes few days of exchange to solve simple issues. A phone support can be the answer to this issues, users can get a real-time support and issues can be solve under a few minutes. Review collected by and hosted on G2.com. Slack provide a platform and medium for organization to connect and communicate in real-time, no email exchange that can take a whole day to get reply. Every chat and discussion is saved for future reference and files can be share easily on the same platform. Review collected by and hosted on G2.com.",
-    "url": "https://www.g2.com/products/slack/reviews/slack-review-11635966"
+    "url": "https://www.g2.com/products/slack/reviews/slack-review-11635966",
+    "reviewer": {
+      "name": "Adinda S.",
+      "role": "Sales &amp; Marketing executive",
+      "company_size": "Mid-Market (51-1000 emp.)",
+      "badges": [
+        "Current User",
+        "Validated Reviewer",
+        "Incentivized",
+        "Source: G2 invite"
+      ]
+    },
+    "review_text": {
+      "title": "\"Simplest way to keep team communication alive\"",
+      "pros": "Slack teams and organization can communicate in simplest way, not only by chat text, it also include option for stand-in video, conference video call and group private room. Using it everyday is suitable, the platform is lightweight that is not using too much computer resources, and flexible enough that it can be access from smartphone. Integration implementation is quick, connector is provided that most of the integration setup can be done by a few click, need no over-complicated setup like most of the software in the market. Review collected by and hosted on G2.com.",
+      "cons": "The only downside with Slack are their customer support respond time, it late, slow and takes few days of exchange to solve simple issues. A phone support can be the answer to this issues, users can get a real-time support and issues can be solve under a few minutes. Review collected by and hosted on G2.com.",
+      "problems_solved": "Slack provide a platform and medium for organization to connect and communicate in real-time, no email exchange that can take a whole day to get reply. Every chat and discussion is saved for future reference and files can be share easily on the same platform. Review collected by and hosted on G2.com."
+    }
   },
   {
     "rating": 4.5,
-    "reviewer": "Muhammad  A.",
-    "reviewer_details": [
-      "Junior DevOps Engineer",
-      "Mid-Market (51-1000 emp.)"
-    ],
     "date": "2025-09-03",
-    "title": "\"Review for using slack\"",
-    "review": "Slack makes our team communication much smoother and in organized way.I really how conversations are divided into multiple channels so our projects stay on track without getting lost in email threads. The integrations are also a plus point in connecting it with tools like GitHub, jira and some of CI/CD notifications helps me to track of deployments and system updates in real time Review collected by and hosted on G2.com. Sometimes its distracting like when you are the part of many active channels the constant notifications can distract you if not managed properly. Review collected by and hosted on G2.com. Slack helps to resolve messy communication like instead of relying on long emails or switching between multiple apps like everything is just centralized in one place while talking about my experience its very useful for quickly sharing updates during the deployments or tracking alerts from monitoring tools that reduces delay and improves response time when issues occur and makes cross team collaboration much smoother. Review collected by and hosted on G2.com.",
-    "url": "https://www.g2.com/products/slack/reviews/slack-review-11631670"
+    "url": "https://www.g2.com/products/slack/reviews/slack-review-11631670",
+    "reviewer": {
+      "name": "Muhammad  A.",
+      "role": "Junior DevOps Engineer",
+      "company_size": "Mid-Market (51-1000 emp.)",
+      "badges": [
+        "Current User",
+        "Validated Reviewer",
+        "Source: Organic"
+      ]
+    },
+    "review_text": {
+      "title": "\"Review for using slack\"",
+      "pros": "Slack makes our team communication much smoother and in organized way.I really how conversations are divided into multiple channels so our projects stay on track without getting lost in email threads. The integrations are also a plus point in connecting it with tools like GitHub, jira and some of CI/CD notifications helps me to track of deployments and system updates in real time Review collected by and hosted on G2.com.",
+      "cons": "Sometimes its distracting like when you are the part of many active channels the constant notifications can distract you if not managed properly. Review collected by and hosted on G2.com.",
+      "problems_solved": "Slack helps to resolve messy communication like instead of relying on long emails or switching between multiple apps like everything is just centralized in one place while talking about my experience its very useful for quickly sharing updates during the deployments or tracking alerts from monitoring tools that reduces delay and improves response time when issues occur and makes cross team collaboration much smoother. Review collected by and hosted on G2.com."
+    }
   },
   {
     "rating": 5.0,
-    "reviewer": "Pamela H.",
-    "reviewer_details": [
-      "System Engineer",
-      "Mid-Market (51-1000 emp.)"
-    ],
     "date": "2025-09-03",
-    "title": "\"Communicate easily, collaborate in one click\"",
-    "review": "Using Slack as daily communication platform to connect with colleagues for everyday use is the best feeling ever, Slack uncomplicated difficult setup for team conversations, fluent collaboration with different project at the same time help to unwind confusion, each project has its different chat room. Not only work for chat, sharing files and document directly from the cloud storage is straightforward, no need to request for permission or using third-party services. Review collected by and hosted on G2.com. Customer support platform should diversify their hub to support more communication medium like phone support. Using email support is slow and users had to keep waiting for their reply, it can range from 3-5 working days. Review collected by and hosted on G2.com. Slack help to unify communication between remote and office workers, everyone can be on the same page, no one is missing important information because the chat history is saved and user can scroll up to find the information easily. Review collected by and hosted on G2.com.",
-    "url": "https://www.g2.com/products/slack/reviews/slack-review-11631014"
+    "url": "https://www.g2.com/products/slack/reviews/slack-review-11631014",
+    "reviewer": {
+      "name": "Pamela H.",
+      "role": "System Engineer",
+      "company_size": "Mid-Market (51-1000 emp.)",
+      "badges": [
+        "Current User",
+        "Validated Reviewer",
+        "Incentivized",
+        "Source: G2 invite"
+      ]
+    },
+    "review_text": {
+      "title": "\"Communicate easily, collaborate in one click\"",
+      "pros": "Using Slack as daily communication platform to connect with colleagues for everyday use is the best feeling ever, Slack uncomplicated difficult setup for team conversations, fluent collaboration with different project at the same time help to unwind confusion, each project has its different chat room. Not only work for chat, sharing files and document directly from the cloud storage is straightforward, no need to request for permission or using third-party services. Review collected by and hosted on G2.com.",
+      "cons": "Customer support platform should diversify their hub to support more communication medium like phone support. Using email support is slow and users had to keep waiting for their reply, it can range from 3-5 working days. Review collected by and hosted on G2.com.",
+      "problems_solved": "Slack help to unify communication between remote and office workers, everyone can be on the same page, no one is missing important information because the chat history is saved and user can scroll up to find the information easily. Review collected by and hosted on G2.com."
+    }
   }
 ]

@@ -2,6 +2,7 @@ import argparse
 from datetime import datetime, date
 import time
 import json
+import re
 from dateutil import parser as date_parser
 
 from bs4 import BeautifulSoup
@@ -33,65 +34,78 @@ def setup_driver():
     driver = webdriver.Chrome(options=options)
     return driver
 
-# Parse individual review card
 def parse_review_card(card):
-    # Rating
-    rating_meta = card.find("meta", attrs={"itemprop": "ratingValue"})
-    rating = float(rating_meta["content"]) if rating_meta else None
+    """Parse a single G2 review card <article> into structured JSON."""
 
-    # Reviewer
-    reviewer_meta = card.find("meta", attrs={"itemprop": "name"})
-    reviewer = reviewer_meta["content"] if reviewer_meta else ""
+    review = {}
 
-    # Reviewer details (title, company size)
-    reviewer_details = []
-    details_blocks = card.select("div.elv-tracking-normal.elv-text-xs")
-    for block in details_blocks:
-        reviewer_details.append(block.get_text(strip=True))
+    # --- Rating ---
+    rating_tag = card.find("meta", itemprop="ratingValue")
+    review["rating"] = float(rating_tag["content"]) if rating_tag else None
 
-    # Date
-    date_meta = card.find("meta", attrs={"itemprop": "datePublished"})
-    review_date = date_meta["content"] if date_meta else ""
+    # --- Date ---
+    date_tag = card.find("meta", itemprop="datePublished")
+    review["date"] = date_tag["content"] if date_tag else None
+
+    # --- Review URL ---
+    url_btn = card.find("button", attrs={"data-clipboard-text": True})
+    review["url"] = url_btn["data-clipboard-text"] if url_btn else None
+
+    # --- Reviewer info ---
+    reviewer = {}
+    name_tag = card.select_one('[itemprop="author"] meta[itemprop="name"]')
+    reviewer["name"] = name_tag["content"].strip() if name_tag else None
+
+    # Role + Company size (subtle text blocks)
+    subtle_tags = card.select("div.elv-text-subtle")
+    if subtle_tags:
+        reviewer["role"] = subtle_tags[0].get_text(strip=True)
+    if len(subtle_tags) > 1:
+        reviewer["company_size"] = subtle_tags[1].get_text(strip=True)
+
+    # Badges (exclude "Rating Updated ..." or anything resembling a date)
+    badges = []
+    for badge in card.select("label.elv-font-medium"):
+        txt = badge.get_text(strip=True)
+        if re.search(r"\d{1,2}/\d{1,2}/\d{2,4}", txt):  # matches mm/dd/yyyy or dd/mm/yyyy
+            continue
+        if txt and not txt.lower().startswith("rating updated"):
+            badges.append(txt)
+    reviewer["badges"] = badges
+
+    review["reviewer"] = reviewer
+
+    # --- Review text sections ---
+    review_text = {}
 
     # Title
-    title_div = card.find("div", attrs={"itemprop": "name"})
-    title = title_div.get_text(strip=True) if title_div else ""
+    title_tag = card.find("div", itemprop="name")
+    if title_tag:
+        inner = title_tag.find("div")
+        review_text["title"] = inner.get_text(strip=True) if inner else None
 
-    # Review Body
-    body_div = card.find("div", attrs={"itemprop": "reviewBody"})
-    review_parts = []
-    if body_div:
-        review_parts.extend(p.get_text(" ", strip=True) for p in body_div.find_all("p"))
-    
     # Pros
-    pros_block = card.find("span", string=lambda s: s and "Pros" in s)
-    if pros_block:
-        pros_p = pros_block.find_next("p")
-        if pros_p:
-            review_parts.append(f"Pros: {pros_p.get_text(' ', strip=True)}")
+    pros_heading = card.find("div", string=lambda t: t and "like best" in t.lower())
+    if pros_heading:
+        p = pros_heading.find_next("p")
+        review_text["pros"] = p.get_text(" ", strip=True) if p else None
 
     # Cons
-    cons_block = card.find("span", string=lambda s: s and "Cons" in s)
-    if cons_block:
-        cons_p = cons_block.find_next("p")
-        if cons_p:
-            review_parts.append(f"Cons: {cons_p.get_text(' ', strip=True)}")
-    
-    review = " ".join(review_parts).strip()
+    cons_heading = card.find("div", string=lambda t: t and "dislike" in t.lower())
+    if cons_heading:
+        p = cons_heading.find_next("p")
+        review_text["cons"] = p.get_text(" ", strip=True) if p else None
 
-    # Review URL
-    url_btn = card.find("button", attrs={"data-clipboard-text": True})
-    review_url = url_btn["data-clipboard-text"] if url_btn else ""
+    # Problems solved
+    problems_heading = card.find("div", string=lambda t: t and "problems" in t.lower())
+    if problems_heading:
+        p = problems_heading.find_next("p")
+        review_text["problems_solved"] = p.get_text(" ", strip=True) if p else None
 
-    return {
-        "rating": rating,
-        "reviewer": reviewer,
-        "reviewer_details": reviewer_details,
-        "date": review_date,
-        "title": title,
-        "review": review,
-        "url": review_url,
-    }
+    review["review_text"] = review_text
+
+    return review
+
 # Main Scraping Logic
 def g2_scraper(company, start_date, end_date, output_file):
     driver = setup_driver()
