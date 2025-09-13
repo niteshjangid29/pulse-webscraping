@@ -32,32 +32,32 @@
 
 ## 🔍 Overview
 
-**pulse-webscraping** is a robust developer tool that automates the extraction of company reviews from **G2**, enabling efficient data collection and analysis.  
-It leverages **web scraping** and **browser automation** to navigate, parse, and store review data in a structured JSON format — supporting insights into customer sentiment and feedback trends.
+**pulse-webscraping** automates the extraction of product reviews from **G2**, enabling efficient data collection and structured analysis.  
+It uses **Selenium** + **BeautifulSoup** to navigate G2’s review pages, parse review data, and store it in JSON.  
+The scraper supports **date filtering** and outputs reviews with structured reviewer details and review text.
 
 ---
 
 ## ✨ Features
 
-- 🧩 **Review Extraction:** Automates the collection of reviews within specified date ranges for comprehensive analysis.  
-- 🧭 **Browser Automation:** Navigates complex G2 web pages seamlessly to ensure accurate data scraping.  
-- 📊 **Structured Data Output:** Saves reviews in JSON format, facilitating easy integration with analysis tools.  
-- ⚙️ **Environment Management:** Ensures consistent setup with dependency management for reliable execution.  
-- 💬 **Sentiment & Trend Analysis:** Supports insights into customer feedback and product reputation.  
+- 🧩 **Review Extraction:** Collects reviews within a specified date range.  
+- 🧭 **Browser Automation:** Navigates G2 product review pages automatically.  
+- 📊 **Structured Data:** Extracts rating, reviewer info, badges, pros, cons, problems solved, and review URL.  
+- ⚙️ **Error Handling:** Handles retries and skips invalid reviews.  
+- 💾 **JSON Output:** Saves reviews in clean JSON for downstream analysis.  
 
 ---
 
 ## ⚙️ Getting Started
 
 ### Prerequisites
-This project requires the following:
-- **Programming Language:** Python 3.8+  
-- **Package Manager:** pip  
-- **Browser Driver:** Google Chrome + ChromeDriver  
+- **Python:** 3.8+  
+- **pip:** Python package manager  
+- **Google Chrome + ChromeDriver** (matching versions)  
 
 ### Installation
 
-1. **Clone the repository**
+1. Clone repository  
 ```sh
 git clone https://github.com/niteshjangid29/pulse-webscraping
 ```
@@ -72,14 +72,85 @@ cd pulse-webscraping
 pip install -r requirements.txt
 ```
 
-🚀 **Usage**
+## 🚀 Usage
 
 Run the project with:
 ```sh
 python3 g2_scraper.py -c <COMPANY_NAME> -s <START_DATE> -e <END_DATE> -o <OUTPUT_FILE>
 ```
 
-**Example:**
+## ⚙️ Arguments
+- `-c / --company` — company/product to search on G2 (required)
+
+- `-s / --start_date` — start date (YYYY-MM-DD) (required)
+
+- `-e / --end_date` — end date (YYYY-MM-DD). If omitted, defaults to `today`.
+
+- `-o / --output` — output filename (default: `g2_reviews.json`)
+
+**Examples:**
+
+- Minimal (start date + company). End date defaults to today:
 ```sh
-python3 g2_scraper.py -c Slack -s 2025-01-01 -e 2025-09-13 -o slack_reviews.json
+python3 g2_scraper.py -c Slack -s 2025-09-03
+```
+
+- Full range and explicit output file:
+```sh
+python3 g2_scraper.py -c Slack -s 2025-09-03 -e 2025-09-13 -o slack_reviews.json
+```
+
+- Long-form flags (identical behaviour):
+```sh
+python3 g2_scraper.py --company "Slack" --start_date 2025-09-03 --end_date 2025-09-13 --output slack_reviews.json
+```
+
+
+## Sample Output JSON
+
+```sh
+[
+  {
+    "rating": 4.5,
+    "date": "2025-09-10",
+    "url": "https://www.g2.com/products/slack/reviews/slack-review-11665819",
+    "reviewer": {
+      "name": "Satyanjani S.",
+      "role": "Projet Manager",
+      "company_size": "Enterprise (> 1000 emp.)",
+      "badges": [
+        "Current User",
+        "Validated Reviewer",
+        "Source: Organic"
+      ]
+    },
+    "review_text": {
+      "title": "\"Best-in-Class for Team Chat and Seamless Collaboration\"",
+      "pros": "Slack makes team communication effortless with its clean interface, powerful search, and seamless integrations with tools we use daily. I especially like how channels keep conversations organized and reduce email clutter, making collaboration faster and more transparent Review collected by and hosted on G2.com.",
+      "cons": "At times, Slack can feel overwhelming with constant notifications, especially in large teams with many active channels. It takes some discipline and customization to manage alerts and avoid distractions. Also, the pricing can be on the higher side compared to alternatives if you need the premium features Review collected by and hosted on G2.com.",
+      "problems_solved": "Slack centralizes all our team communication in one place, reducing reliance on long email chains and scattered chats. With channels, we can keep conversations topic-focused, which saves time and improves transparency. Integrations with tools like Google Drive and Jira streamline workflows, so we can share updates instantly and act faster. Overall, it makes collaboration more efficient and keeps everyone aligned, especially in a hybrid work environment Review collected by and hosted on G2.com."
+    }
+  },
+  {
+    "rating": 4.5,
+    "date": "2025-09-10",
+    "url": "https://www.g2.com/products/slack/reviews/slack-review-11662901",
+    "reviewer": {
+      "name": "Arjun G.",
+      "role": "Associate Salesforce Consultant",
+      "company_size": "Small-Business (50 or fewer emp.)",
+      "badges": [
+        "Current User",
+        "Validated Reviewer",
+        "Source: Organic"
+      ]
+    },
+    "review_text": {
+      "title": "\"Always ahead in the conversation with Slack Summary\"",
+      "pros": "The best part about using Slack with so many clients and team members is that you can summarize what they want to convey and had a conversation around in the channels. Without looking at the long conversation, a quick glance and they call to action are provided seamlessly.",
+      "cons": "The documentation for the slack features are not well prepared, that is the only downside of the slack. I had conversation with their customer support about it and they communicated that they will fix it as we wanted to implement salesforce with slack. Review collected by and hosted on G2.com.",
+      "problems_solved": "Slack solves the major problem of finding the right resource in the least time and reducing the messaging workload with its AI features. Review collected by and hosted on G2.com."
+    }
+  },
+]
 ```
